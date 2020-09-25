@@ -1,0 +1,24 @@
+{
+  "name": "symbols-list",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draeder/symbols-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/draeder/symbols-list/issues"
+  },
+  "homepage": "https://github.com/draeder/symbols-list#readme",
+  "description": ""
+}
