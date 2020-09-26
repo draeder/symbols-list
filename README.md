@@ -9,7 +9,8 @@ const symbols = new Symbols`
 
 Register the event listeners:
 
-```symbols.on("all", data => {
+```
+symbols.on("all", data => {
     console.log(data)
 })
 
@@ -23,7 +24,8 @@ symbols.on("random", data => {
 
 symbols.on("find", data => {
     console.log(data)
-})```
+})
+```
 
 symbols.get("all") // return all symbols
 
