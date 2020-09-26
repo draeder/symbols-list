@@ -4,22 +4,25 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 # Usage
 
 ##
-const Symbols = require("./Symbols")
-const symbols = new Symbols
+`const Symbols = require("./Symbols")
+const symbols = new Symbols`
 
-symbols.on("all", data => {
+Register the event listeners:
+`symbols.on("all", data => {
     console.log(data)
 })
+
 symbols.on("type", data => {
     console.log(data)
 })
+
 symbols.on("random", data => {
     console.log(data)
 })
 
 symbols.on("find", data => {
     console.log(data)
-})
+})`
 
 symbols.get("all") // return all symbols
 
