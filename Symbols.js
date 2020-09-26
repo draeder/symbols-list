@@ -88,9 +88,10 @@ Symbols.prototype.get = function (event, data) {
                 data.forEach(item => {
                     results.push(body.find(element => element.symbol == item))
                 })
-                console.log(results)
+                symbols.emit("find", results)
             } else if (typeof(data)==="string"){
                 const found = body.find(element => element.symbol == data)
+                symbols.emit("find", found)
             }
         }
 
