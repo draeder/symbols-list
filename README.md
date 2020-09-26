@@ -2,6 +2,16 @@
 Get a list of all stock and crypto symbols supported by IEX, and their associated information.
 
 # Usage
+## Example
+```
+const Symbol = require('symbols-list')
+const symbol = new Symbol
+
+symbol.on("random", data => console.log(data))
+
+symbol.get("random", 2)
+```
+
 ## Installation
 ### Server
 `npm i symbols-list`
