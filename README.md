@@ -12,7 +12,7 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 ## Initialize symbols-list
 ### Server
 ```
-var Symbols = require("symbols-list")
+const Symbols = require("symbols-list")
 const symbols = new Symbols
 ```
 
