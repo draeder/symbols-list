@@ -1,6 +1,8 @@
 # symbols-list
 Get a list of all stock and crypto symbols supported by IEX, and their associated information.
 
+This is a work in progress as work to understand npm modules, so please don't mind the dust for now... 
+
 # Usage
 
 ## Initialize symbols-list
