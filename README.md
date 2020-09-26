@@ -3,13 +3,21 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 
 # Usage
 ## Installation
+### Server
 `npm i symbols-list`
 
+### Browser
+`<script src="https://draeder.github.io/symbols-list/symbols.min.js"></script>`
+
 ## Initialize symbols-list
+### Server
 ```
 var Symbols = require("symbols-list")
 const symbols = new Symbols
 ```
+
+### Browser
+`const symbols = new Symbols()`
 
 ## Register the event listeners
 
