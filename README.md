@@ -8,6 +8,7 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 const symbols = new Symbols`
 
 Register the event listeners:
+
 `symbols.on("all", data => {
     console.log(data)
 })
