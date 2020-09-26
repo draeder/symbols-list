@@ -32,15 +32,15 @@ symbols.on("find", data => {
 ## Make requests
 ### Return all symbols
 `symbols.get("all")`
-### Find one symbol
+### Return one symbol
 `symbols.get("find", "TSLA")`
-### Find a list of symbols
+### Return a list of symbols
 `symbols.get("find", ["TSLA", "MSFT", "AAPL"])`
 ### Return only stock market symbols
 `symbols.get("type", "stock")`
 ### Return only crypto markeet symbols
 `symbols.get("type", "crypto")`
-#### Note: IEX supports very few crypto symbols
+##### Note: IEX supports very few crypto symbols
 ### Return random symbols
 `symbols.get("random", 3)`
 ### Return random symbols of a given type and size
