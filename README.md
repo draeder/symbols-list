@@ -4,8 +4,10 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 # Usage
 
 ## Initialize symbols-list
-`const Symbols = require("./Symbols")
-const symbols = new Symbols`
+```
+const Symbols = require("./Symbols")
+const symbols = new Symbols
+```
 
 ## Register the event listeners
 
