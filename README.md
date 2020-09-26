@@ -3,10 +3,13 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 This is a work in progress as I work to understand npm modules, so please don't mind the dust for now... 
 
 # Usage
+## Installation
+`npm i symbols-list`
+
 
 ## Initialize symbols-list
 ```
-const Symbols = require("./Symbols")
+var Symbols = require("symbols-list")
 const symbols = new Symbols
 ```
 
