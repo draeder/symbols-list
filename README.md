@@ -10,8 +10,6 @@ Get a list of all stock and crypto symbols supported by IEX, and their associate
 var Symbols = require("symbols-list")
 const symbols = new Symbols
 ```
-### Browser
-`<script src="https://cdn.jsdelivr.net/npm/symbols-list@0.1.0/Symbols.min.js"></script>`
 
 ## Register the event listeners
 
