@@ -1,6 +1,6 @@
 {
   "name": "symbols-list",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "Symbols.js",
   "dependencies": {
     "request": "^2.88.2"
