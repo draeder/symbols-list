@@ -1,3 +1,4 @@
+module.exports = Symbols
 const request = require('request')
 const util = require('util'),
     EventEmitter = require('events')
@@ -98,5 +99,3 @@ Symbols.prototype.get = function (event, data) {
     })
 
 }
-
-module.exports = Symbols;
