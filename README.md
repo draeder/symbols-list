@@ -1,7 +1,7 @@
 # symbols-list
 Get a list of all stock and crypto symbols supported by IEX, and their associated information.
 
-This is a work in progress as work to understand npm modules, so please don't mind the dust for now... 
+This is a work in progress as I work to understand npm modules, so please don't mind the dust for now... 
 
 # Usage
 
@@ -40,7 +40,7 @@ symbols.on("find", data => {
 `symbols.get("find", ["TSLA", "MSFT", "AAPL"])`
 ### Return only stock market symbols
 `symbols.get("type", "stock")`
-### Return only crypto markeet symbols
+### Return only crypto market symbols
 `symbols.get("type", "crypto")`
 ##### Note: IEX supports very few crypto symbols
 ### Return random symbols
