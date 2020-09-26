@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>symbols-list html example</title>
-<script src="Symbols.js"></script>
-</head>
+const Symbols = require("../Symbols")
+const symbols = new Symbols
 
-<body>
-
-</body>
-<script>
-const symbols = new Symbols()
 symbols.on("all", data => {
     console.log(data)
 })
-
 symbols.on("type", data => {
     console.log(data)
 })
-
 symbols.on("random", data => {
     console.log(data)
 })
@@ -43,6 +32,3 @@ symbols.get("random", {type: "stock", size: 2})
 symbols.get("random", {size: 2}) 
 
 symbols.get("random", 3) 
-
-</script>
-</html>

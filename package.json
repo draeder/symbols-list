@@ -1,6 +1,6 @@
 {
   "name": "symbols-list",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "Symbols.js",
   "dependencies": {
     "request": "^2.88.2"
@@ -26,5 +26,8 @@
     "stocks",
     "tickers",
     "finance"
-  ]
+  ],
+  "directories": {
+    "test": "tests"
+  }
 }
