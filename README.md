@@ -43,7 +43,7 @@ symbols.on("find", data => {
 `symbols.get("type", "stock")`
 ### Return only crypto market symbols
 `symbols.get("type", "crypto")`
-##### Note: IEX supports very few crypto symbols
+> Note: IEX supports very few crypto symbols
 ### Return random symbols
 `symbols.get("random", 3)`
 ### Return random symbols of a given type and size
