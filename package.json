@@ -1,6 +1,6 @@
 {
   "name": "symbols-list",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "server.js",
   "dependencies": {
     "request": "^2.88.2"
@@ -20,7 +20,7 @@
     "url": "https://github.com/draeder/symbols-list/issues"
   },
   "homepage": "https://github.com/draeder/symbols-list#readme",
-  "description": "Get a list of all stock and crypto symbols supported by IEX, and their associated information.",
+  "description": "Get a list of all stock and crypto symbols supported by IEX, and their associated information. This is a work in progress as I work to understand npm modules, so please don't mind the dust for now... ",
   "keywords": [
     "symbols",
     "stocks",
