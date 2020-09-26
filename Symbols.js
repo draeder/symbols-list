@@ -91,7 +91,6 @@ Symbols.prototype.get = function (event, data) {
                 console.log(results)
             } else if (typeof(data)==="string"){
                 const found = body.find(element => element.symbol == data)
-                console.log(found)
             }
         }
 
