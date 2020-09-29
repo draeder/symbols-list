@@ -1,5 +1,5 @@
 # symbols-list
-Get a list of all stock and crypto symbols supported by IEX, and their associated information.
+Get a list of all stock and crypto symbols supported by [IEX](https://iextrading.com/api-terms/), and their associated information.
 
 # Usage
 ## Example
