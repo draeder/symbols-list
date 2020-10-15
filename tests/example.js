@@ -1,17 +1,7 @@
 const Symbols = require("../Symbols")
 const symbols = new Symbols
 
-symbols.on("all", data => {
-    console.log(data)
-})
-symbols.on("type", data => {
-    console.log(data)
-})
-symbols.on("random", data => {
-    console.log(data)
-})
-
-symbols.on("find", data => {
+symbols.on("results", data => {
     console.log(data)
 })
 

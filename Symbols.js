@@ -32,14 +32,14 @@ Symbols.prototype.get = function (event, data) {
                     symbol.push(element)
                 }
             })
-            symbols.emit("type", symbol)
+            symbols.emit("results", symbol)
         }
 
         if(event == "all" && body) {
             body.forEach(element => {
                 symbol.push(element)
             })
-            symbols.emit("type", symbol)
+            symbols.emit("results", symbol)
         }
 
         let results = []
@@ -78,7 +78,7 @@ Symbols.prototype.get = function (event, data) {
                 .map(a => a.x)
                 .slice(0, n)
 
-            symbols.emit("random", sample)
+            symbols.emit("results", sample)
 
         }
 
@@ -88,10 +88,10 @@ Symbols.prototype.get = function (event, data) {
                 data.forEach(item => {
                     results.push(body.find(element => element.symbol == item))
                 })
-                symbols.emit("find", results)
+                symbols.emit("results", results)
             } else if (typeof(data)==="string"){
                 const found = body.find(element => element.symbol == data)
-                symbols.emit("find", found)
+                symbols.emit("results", found)
             }
         }
 
