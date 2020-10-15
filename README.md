@@ -7,7 +7,7 @@ Get a list of all stock and crypto symbols supported by [IEX](https://iextrading
 const Symbol = require('symbols-list')
 const symbol = new Symbol
 
-symbol.on("random", data => console.log(data))
+symbol.on("results", data => console.log(data))
 
 symbol.get("random", 2)
 ```
@@ -29,22 +29,10 @@ const symbols = new Symbols
 ### Browser
 `const symbols = new Symbols()`
 
-## Register the event listeners
+## Register the event listener to handler results
 
 ```
-symbols.on("all", data => {
-    console.log(data)
-})
-
-symbols.on("type", data => {
-    console.log(data)
-})
-
-symbols.on("random", data => {
-    console.log(data)
-})
-
-symbols.on("find", data => {
+symbols.on("results", data => {
     console.log(data)
 })
 ```
